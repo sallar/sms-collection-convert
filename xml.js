@@ -9,5 +9,5 @@ parseString(text, (err, result) => {
     }
 
     const data = result.smses.sms.map(res => res['$'].body);
-    fs.writeFileSync('./data/spam.txt', data.join("\n---\n"));
+    fs.writeFileSync('./data/spam.txt', data.join("\n<->\n"));
 });
