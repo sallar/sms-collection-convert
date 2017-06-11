@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "natural": "^0.5.1"
+    "natural": "^0.5.1",
+    "xml2js": "^0.4.17"
   }
 }
